@@ -17,9 +17,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 
-/**
- * @author Chopper
- */
 @RestController
 @Api(tags = "Im消息接口")
 @RequestMapping("/im/message")

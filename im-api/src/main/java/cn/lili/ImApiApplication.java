@@ -6,9 +6,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.socket.server.standard.ServerEndpointExporter;
 
 
-/**
- * @author liushuai
- */
 @SpringBootApplication
 public class ImApiApplication {
 

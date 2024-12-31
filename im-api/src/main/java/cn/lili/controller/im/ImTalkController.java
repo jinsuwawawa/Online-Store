@@ -17,9 +17,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 
-/**
- * @author Chopper
- */
 @RestController
 @Api(tags = "聊天接口")
 @RequestMapping("/im/talk")
