@@ -1,6 +1,6 @@
-package cn.lili.modules.statistics.service;
+package cn.store.modules.statistics.service;
 
-import cn.lili.modules.promotion.entity.dos.Seckill;
+import cn.store.modules.promotion.entity.dos.Seckill;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

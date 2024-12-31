@@ -1,4 +1,4 @@
-package cn.lili.modules.goods.entity.dto;
+package cn.store.modules.goods.entity.dto;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -31,7 +31,7 @@ public class GoodsSkuStockDTO {
     private String goodsName;
 
     /**
-     * @see cn.lili.modules.goods.entity.enums.GoodsStockTypeEnum
+     * @see cn.store.modules.goods.entity.enums.GoodsStockTypeEnum
      */
     @ApiModelProperty(value = "类型")
     private String type;

@@ -1,6 +1,6 @@
-package cn.lili.modules.statistics.service;
+package cn.store.modules.statistics.service;
 
-import cn.lili.modules.store.entity.dos.Store;
+import cn.store.modules.store.entity.dos.Store;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

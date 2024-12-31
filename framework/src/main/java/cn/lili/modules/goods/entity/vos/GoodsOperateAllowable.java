@@ -1,6 +1,6 @@
-package cn.lili.modules.goods.entity.vos;
+package cn.store.modules.goods.entity.vos;
 
-import cn.lili.modules.goods.entity.enums.GoodsStatusEnum;
+import cn.store.modules.goods.entity.enums.GoodsStatusEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

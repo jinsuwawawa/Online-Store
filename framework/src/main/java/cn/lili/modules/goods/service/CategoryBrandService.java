@@ -1,7 +1,7 @@
-package cn.lili.modules.goods.service;
+package cn.store.modules.goods.service;
 
-import cn.lili.modules.goods.entity.dos.CategoryBrand;
-import cn.lili.modules.goods.entity.vos.CategoryBrandVO;
+import cn.store.modules.goods.entity.dos.CategoryBrand;
+import cn.store.modules.goods.entity.vos.CategoryBrandVO;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

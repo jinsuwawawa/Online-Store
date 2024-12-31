@@ -1,7 +1,7 @@
-package cn.lili.modules.goods.mapper;
+package cn.store.modules.goods.mapper;
 
-import cn.lili.modules.goods.entity.dos.CategoryBrand;
-import cn.lili.modules.goods.entity.vos.CategoryBrandVO;
+import cn.store.modules.goods.entity.dos.CategoryBrand;
+import cn.store.modules.goods.entity.vos.CategoryBrandVO;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Select;
 

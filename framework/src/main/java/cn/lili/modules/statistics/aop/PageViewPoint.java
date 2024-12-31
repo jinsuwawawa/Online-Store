@@ -1,6 +1,6 @@
-package cn.lili.modules.statistics.aop;
+package cn.store.modules.statistics.aop;
 
-import cn.lili.modules.statistics.aop.enums.PageViewEnum;
+import cn.store.modules.statistics.aop.enums.PageViewEnum;
 
 import java.lang.annotation.*;
 

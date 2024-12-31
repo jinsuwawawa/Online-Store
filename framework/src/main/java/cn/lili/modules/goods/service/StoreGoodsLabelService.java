@@ -1,7 +1,7 @@
-package cn.lili.modules.goods.service;
+package cn.store.modules.goods.service;
 
-import cn.lili.modules.goods.entity.dos.StoreGoodsLabel;
-import cn.lili.modules.goods.entity.vos.StoreGoodsLabelVO;
+import cn.store.modules.goods.entity.dos.StoreGoodsLabel;
+import cn.store.modules.goods.entity.vos.StoreGoodsLabelVO;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

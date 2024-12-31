@@ -1,8 +1,8 @@
-package cn.lili.modules.goods.entity.vos;
+package cn.store.modules.goods.entity.vos;
 
-import cn.lili.modules.goods.entity.dos.DraftGoods;
-import cn.lili.modules.goods.entity.dos.Wholesale;
-import cn.lili.modules.goods.entity.dto.GoodsParamsDTO;
+import cn.store.modules.goods.entity.dos.DraftGoods;
+import cn.store.modules.goods.entity.dos.Wholesale;
+import cn.store.modules.goods.entity.dto.GoodsParamsDTO;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

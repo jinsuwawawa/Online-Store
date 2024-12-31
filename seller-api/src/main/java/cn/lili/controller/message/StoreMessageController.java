@@ -1,15 +1,15 @@
-package cn.lili.controller.message;
+package cn.store.controller.message;
 
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.security.OperationalJudgment;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.vo.PageVO;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.message.entity.dos.StoreMessage;
-import cn.lili.modules.message.entity.enums.MessageStatusEnum;
-import cn.lili.modules.message.entity.vos.StoreMessageQueryVO;
-import cn.lili.modules.message.service.StoreMessageService;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.security.OperationalJudgment;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.vo.PageVO;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.message.entity.dos.StoreMessage;
+import cn.store.modules.message.entity.enums.MessageStatusEnum;
+import cn.store.modules.message.entity.vos.StoreMessageQueryVO;
+import cn.store.modules.message.service.StoreMessageService;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;

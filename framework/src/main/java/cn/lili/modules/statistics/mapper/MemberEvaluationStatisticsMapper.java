@@ -1,8 +1,8 @@
-package cn.lili.modules.statistics.mapper;
+package cn.store.modules.statistics.mapper;
 
-import cn.lili.modules.member.entity.dos.MemberEvaluation;
-import cn.lili.modules.member.entity.vo.MemberEvaluationListVO;
-import cn.lili.modules.member.entity.vo.StoreRatingVO;
+import cn.store.modules.member.entity.dos.MemberEvaluation;
+import cn.store.modules.member.entity.vo.MemberEvaluationListVO;
+import cn.store.modules.member.entity.vo.StoreRatingVO;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;

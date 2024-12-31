@@ -1,10 +1,10 @@
-package cn.lili.modules.statistics.serviceimpl;
+package cn.store.modules.statistics.serviceimpl;
 
-import cn.lili.modules.promotion.entity.dos.Seckill;
-import cn.lili.modules.promotion.entity.enums.PromotionsStatusEnum;
-import cn.lili.modules.promotion.tools.PromotionTools;
-import cn.lili.modules.statistics.mapper.SeckillStatisticsMapper;
-import cn.lili.modules.statistics.service.SeckillStatisticsService;
+import cn.store.modules.promotion.entity.dos.Seckill;
+import cn.store.modules.promotion.entity.enums.PromotionsStatusEnum;
+import cn.store.modules.promotion.tools.PromotionTools;
+import cn.store.modules.statistics.mapper.SeckillStatisticsMapper;
+import cn.store.modules.statistics.service.SeckillStatisticsService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

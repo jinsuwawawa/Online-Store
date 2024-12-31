@@ -1,11 +1,11 @@
-package cn.lili.modules.statistics.serviceimpl;
+package cn.store.modules.statistics.serviceimpl;
 
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.date.DateUtil;
-import cn.lili.modules.statistics.mapper.StoreStatisticsMapper;
-import cn.lili.modules.statistics.service.StoreStatisticsService;
-import cn.lili.modules.store.entity.dos.Store;
-import cn.lili.modules.store.entity.enums.StoreStatusEnum;
+import cn.store.modules.statistics.mapper.StoreStatisticsMapper;
+import cn.store.modules.statistics.service.StoreStatisticsService;
+import cn.store.modules.store.entity.dos.Store;
+import cn.store.modules.store.entity.enums.StoreStatusEnum;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

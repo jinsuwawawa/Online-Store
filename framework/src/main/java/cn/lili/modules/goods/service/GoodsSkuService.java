@@ -1,13 +1,13 @@
-package cn.lili.modules.goods.service;
+package cn.store.modules.goods.service;
 
-import cn.lili.cache.CachePrefix;
-import cn.lili.modules.goods.entity.dos.Goods;
-import cn.lili.modules.goods.entity.dos.GoodsSku;
-import cn.lili.modules.goods.entity.dto.GoodsOperationDTO;
-import cn.lili.modules.goods.entity.dto.GoodsSearchParams;
-import cn.lili.modules.goods.entity.dto.GoodsSkuDTO;
-import cn.lili.modules.goods.entity.dto.GoodsSkuStockDTO;
-import cn.lili.modules.goods.entity.vos.GoodsSkuVO;
+import cn.store.cache.CachePrefix;
+import cn.store.modules.goods.entity.dos.Goods;
+import cn.store.modules.goods.entity.dos.GoodsSku;
+import cn.store.modules.goods.entity.dto.GoodsOperationDTO;
+import cn.store.modules.goods.entity.dto.GoodsSearchParams;
+import cn.store.modules.goods.entity.dto.GoodsSkuDTO;
+import cn.store.modules.goods.entity.dto.GoodsSkuStockDTO;
+import cn.store.modules.goods.entity.vos.GoodsSkuVO;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;

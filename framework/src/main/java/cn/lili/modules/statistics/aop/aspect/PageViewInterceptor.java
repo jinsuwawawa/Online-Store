@@ -1,15 +1,15 @@
-package cn.lili.modules.statistics.aop.aspect;
+package cn.store.modules.statistics.aop.aspect;
 
-import cn.lili.cache.Cache;
-import cn.lili.cache.CachePrefix;
-import cn.lili.common.context.ThreadContextHolder;
-import cn.lili.common.utils.IpUtils;
-import cn.lili.common.utils.SpelUtil;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.goods.entity.vos.GoodsSkuVO;
-import cn.lili.modules.statistics.aop.PageViewPoint;
-import cn.lili.modules.statistics.aop.enums.PageViewEnum;
-import cn.lili.modules.statistics.util.StatisticsSuffix;
+import cn.store.cache.Cache;
+import cn.store.cache.CachePrefix;
+import cn.store.common.context.ThreadContextHolder;
+import cn.store.common.utils.IpUtils;
+import cn.store.common.utils.SpelUtil;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.goods.entity.vos.GoodsSkuVO;
+import cn.store.modules.statistics.aop.PageViewPoint;
+import cn.store.modules.statistics.aop.enums.PageViewEnum;
+import cn.store.modules.statistics.util.StatisticsSuffix;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -35,7 +35,7 @@ public class PageViewInterceptor {
 
 
 
-    @AfterReturning(returning = "rvt", pointcut = "@annotation(cn.lili.modules.statistics.aop.PageViewPoint)")
+    @AfterReturning(returning = "rvt", pointcut = "@annotation(cn.store.modules.statistics.aop.PageViewPoint)")
     public void interceptor(JoinPoint point, Object rvt) {
         MethodSignature signature = (MethodSignature) point.getSignature();
         Method method = signature.getMethod();

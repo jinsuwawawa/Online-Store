@@ -1,9 +1,9 @@
-package cn.lili.modules.goods.service;
+package cn.store.modules.goods.service;
 
 
-import cn.lili.modules.goods.entity.dos.Brand;
-import cn.lili.modules.goods.entity.dto.BrandPageDTO;
-import cn.lili.modules.goods.entity.vos.BrandVO;
+import cn.store.modules.goods.entity.dos.Brand;
+import cn.store.modules.goods.entity.dto.BrandPageDTO;
+import cn.store.modules.goods.entity.vos.BrandVO;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 

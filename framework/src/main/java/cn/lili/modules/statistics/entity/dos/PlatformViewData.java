@@ -1,6 +1,6 @@
-package cn.lili.modules.statistics.entity.dos;
+package cn.store.modules.statistics.entity.dos;
 
-import cn.lili.mybatis.BaseIdEntity;
+import cn.store.mybatis.BaseIdEntity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

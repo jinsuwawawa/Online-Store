@@ -1,4 +1,4 @@
-package cn.lili.modules.goods.entity.vos;
+package cn.store.modules.goods.entity.vos;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import io.swagger.annotations.ApiModelProperty;

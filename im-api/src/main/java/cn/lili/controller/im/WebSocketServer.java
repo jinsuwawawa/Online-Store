@@ -1,18 +1,18 @@
-package cn.lili.controller.im;
+package cn.store.controller.im;
 
 import cn.hutool.json.JSONUtil;
-import cn.lili.cache.Cache;
-import cn.lili.common.security.AuthUser;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.security.enums.UserEnums;
-import cn.lili.modules.im.config.CustomSpringConfigurator;
-import cn.lili.modules.im.entity.dos.ImMessage;
-import cn.lili.modules.im.entity.dos.ImTalk;
-import cn.lili.modules.im.entity.enums.MessageResultType;
-import cn.lili.modules.im.entity.vo.MessageOperation;
-import cn.lili.modules.im.entity.vo.MessageVO;
-import cn.lili.modules.im.service.ImMessageService;
-import cn.lili.modules.im.service.ImTalkService;
+import cn.store.cache.Cache;
+import cn.store.common.security.AuthUser;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.security.enums.UserEnums;
+import cn.store.modules.im.config.CustomSpringConfigurator;
+import cn.store.modules.im.entity.dos.ImMessage;
+import cn.store.modules.im.entity.dos.ImTalk;
+import cn.store.modules.im.entity.enums.MessageResultType;
+import cn.store.modules.im.entity.vo.MessageOperation;
+import cn.store.modules.im.entity.vo.MessageVO;
+import cn.store.modules.im.service.ImMessageService;
+import cn.store.modules.im.service.ImTalkService;
 import com.alibaba.druid.util.StringUtils;
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
@@ -35,7 +35,7 @@ import org.springframework.stereotype.Component;
  * @author liushuai
  */
 @Component
-@ServerEndpoint(value = "/lili/webSocket/{accessToken}", configurator = CustomSpringConfigurator.class)
+@ServerEndpoint(value = "/store/webSocket/{accessToken}", configurator = CustomSpringConfigurator.class)
 @Scope("prototype")
 @Slf4j
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))

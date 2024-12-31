@@ -1,7 +1,7 @@
-package cn.lili.controller.goods;
+package cn.store.controller.goods;
 
-import cn.lili.modules.goods.entity.vos.ParameterGroupVO;
-import cn.lili.modules.goods.service.CategoryParameterGroupService;
+import cn.store.modules.goods.entity.vos.ParameterGroupVO;
+import cn.store.modules.goods.service.CategoryParameterGroupService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

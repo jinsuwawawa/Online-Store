@@ -1,13 +1,13 @@
-package cn.lili.controller.member;
+package cn.store.controller.member;
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.vo.PageVO;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.member.entity.dos.MemberPointsHistory;
-import cn.lili.modules.member.entity.vo.MemberPointsHistoryVO;
-import cn.lili.modules.member.service.MemberPointsHistoryService;
-import cn.lili.mybatis.util.PageUtil;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.vo.PageVO;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.member.entity.dos.MemberPointsHistory;
+import cn.store.modules.member.entity.vo.MemberPointsHistoryVO;
+import cn.store.modules.member.service.MemberPointsHistoryService;
+import cn.store.mybatis.util.PageUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;

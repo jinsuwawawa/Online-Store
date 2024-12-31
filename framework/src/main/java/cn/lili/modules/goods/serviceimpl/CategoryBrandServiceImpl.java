@@ -1,9 +1,9 @@
-package cn.lili.modules.goods.serviceimpl;
+package cn.store.modules.goods.serviceimpl;
 
-import cn.lili.modules.goods.entity.dos.CategoryBrand;
-import cn.lili.modules.goods.entity.vos.CategoryBrandVO;
-import cn.lili.modules.goods.mapper.CategoryBrandMapper;
-import cn.lili.modules.goods.service.CategoryBrandService;
+import cn.store.modules.goods.entity.dos.CategoryBrand;
+import cn.store.modules.goods.entity.vos.CategoryBrandVO;
+import cn.store.modules.goods.mapper.CategoryBrandMapper;
+import cn.store.modules.goods.service.CategoryBrandService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

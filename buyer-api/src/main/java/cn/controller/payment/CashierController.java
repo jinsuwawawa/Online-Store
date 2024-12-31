@@ -1,14 +1,14 @@
-package cn.lili.controller.payment;
+package cn.store.controller.payment;
 
-import cn.lili.common.enums.ResultCode;
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.exception.ServiceException;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.payment.kit.CashierSupport;
-import cn.lili.modules.payment.kit.dto.PayParam;
-import cn.lili.modules.payment.entity.enums.PaymentClientEnum;
-import cn.lili.modules.payment.entity.enums.PaymentMethodEnum;
-import cn.lili.modules.payment.kit.params.dto.CashierParam;
+import cn.store.common.enums.ResultCode;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.exception.ServiceException;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.payment.kit.CashierSupport;
+import cn.store.modules.payment.kit.dto.PayParam;
+import cn.store.modules.payment.entity.enums.PaymentClientEnum;
+import cn.store.modules.payment.entity.enums.PaymentMethodEnum;
+import cn.store.modules.payment.kit.params.dto.CashierParam;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

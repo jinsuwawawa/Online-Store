@@ -1,9 +1,9 @@
-package cn.lili.modules.goods.service;
+package cn.store.modules.goods.service;
 
 
-import cn.lili.modules.goods.entity.dos.Category;
-import cn.lili.modules.goods.entity.dto.CategorySearchParams;
-import cn.lili.modules.goods.entity.vos.CategoryVO;
+import cn.store.modules.goods.entity.dos.Category;
+import cn.store.modules.goods.entity.dto.CategorySearchParams;
+import cn.store.modules.goods.entity.vos.CategoryVO;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

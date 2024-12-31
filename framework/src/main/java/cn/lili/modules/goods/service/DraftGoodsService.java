@@ -1,9 +1,9 @@
-package cn.lili.modules.goods.service;
+package cn.store.modules.goods.service;
 
-import cn.lili.modules.goods.entity.dos.DraftGoods;
-import cn.lili.modules.goods.entity.dto.DraftGoodsDTO;
-import cn.lili.modules.goods.entity.dto.DraftGoodsSearchParams;
-import cn.lili.modules.goods.entity.vos.DraftGoodsVO;
+import cn.store.modules.goods.entity.dos.DraftGoods;
+import cn.store.modules.goods.entity.dto.DraftGoodsDTO;
+import cn.store.modules.goods.entity.dto.DraftGoodsSearchParams;
+import cn.store.modules.goods.entity.vos.DraftGoodsVO;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 

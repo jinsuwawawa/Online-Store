@@ -1,10 +1,10 @@
-package cn.lili.controller.order;
+package cn.store.controller.order;
 
-import cn.lili.common.aop.annotation.PreventDuplicateSubmissions;
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.wallet.entity.dos.Recharge;
-import cn.lili.modules.wallet.service.RechargeService;
+import cn.store.common.aop.annotation.PreventDuplicateSubmissions;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.wallet.entity.dos.Recharge;
+import cn.store.modules.wallet.service.RechargeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

@@ -1,11 +1,11 @@
-package cn.lili.controller.order;
+package cn.store.controller.order;
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.vo.PageVO;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.order.aftersale.entity.dos.AfterSaleReason;
-import cn.lili.modules.order.aftersale.service.AfterSaleReasonService;
-import cn.lili.mybatis.util.PageUtil;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.vo.PageVO;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.order.aftersale.entity.dos.AfterSaleReason;
+import cn.store.modules.order.aftersale.service.AfterSaleReasonService;
+import cn.store.mybatis.util.PageUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.annotations.Api;

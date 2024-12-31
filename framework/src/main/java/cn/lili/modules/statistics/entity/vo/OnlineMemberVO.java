@@ -1,4 +1,4 @@
-package cn.lili.modules.statistics.entity.vo;
+package cn.store.modules.statistics.entity.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

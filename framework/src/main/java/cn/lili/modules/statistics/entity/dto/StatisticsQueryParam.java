@@ -1,4 +1,4 @@
-package cn.lili.modules.statistics.entity.dto;
+package cn.store.modules.statistics.entity.dto;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

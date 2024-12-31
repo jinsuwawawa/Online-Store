@@ -1,7 +1,7 @@
-package cn.lili.controller.goods;
+package cn.store.controller.goods;
 
-import cn.lili.modules.goods.entity.dos.Specification;
-import cn.lili.modules.goods.service.CategorySpecificationService;
+import cn.store.modules.goods.entity.dos.Specification;
+import cn.store.modules.goods.service.CategorySpecificationService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

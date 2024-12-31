@@ -1,4 +1,4 @@
-package cn.lili.modules.goods.entity.enums;
+package cn.store.modules.goods.entity.enums;
 
 /**
  * 草稿商品保存类型

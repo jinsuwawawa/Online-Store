@@ -1,4 +1,4 @@
-package cn.lili.modules.goods.entity.vos;
+package cn.store.modules.goods.entity.vos;
 
 
 import io.swagger.annotations.ApiModelProperty;

@@ -1,4 +1,4 @@
-package cn.lili.modules.goods.entity.enums;
+package cn.store.modules.goods.entity.enums;
 
 /**
  * 商品类型

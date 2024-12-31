@@ -1,4 +1,4 @@
-package cn.lili.modules.goods.entity.dto;
+package cn.store.modules.goods.entity.dto;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import io.swagger.annotations.ApiModel;

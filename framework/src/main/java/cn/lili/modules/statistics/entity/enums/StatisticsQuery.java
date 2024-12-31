@@ -1,4 +1,4 @@
-package cn.lili.modules.statistics.entity.enums;
+package cn.store.modules.statistics.entity.enums;
 
 /**
  * 统计查询

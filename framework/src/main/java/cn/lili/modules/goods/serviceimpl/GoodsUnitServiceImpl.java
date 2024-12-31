@@ -1,8 +1,8 @@
-package cn.lili.modules.goods.serviceimpl;
+package cn.store.modules.goods.serviceimpl;
 
-import cn.lili.modules.goods.entity.dos.GoodsUnit;
-import cn.lili.modules.goods.mapper.GoodsUnitMapper;
-import cn.lili.modules.goods.service.GoodsUnitService;
+import cn.store.modules.goods.entity.dos.GoodsUnit;
+import cn.store.modules.goods.mapper.GoodsUnitMapper;
+import cn.store.modules.goods.service.GoodsUnitService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

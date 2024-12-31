@@ -1,8 +1,8 @@
-package cn.lili.modules.statistics.mapper;
+package cn.store.modules.statistics.mapper;
 
 
-import cn.lili.modules.store.entity.dos.Bill;
-import cn.lili.modules.store.entity.vos.BillListVO;
+import cn.store.modules.store.entity.dos.Bill;
+import cn.store.modules.store.entity.vos.BillListVO;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;

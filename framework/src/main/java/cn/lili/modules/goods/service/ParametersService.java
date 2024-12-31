@@ -1,6 +1,6 @@
-package cn.lili.modules.goods.service;
+package cn.store.modules.goods.service;
 
-import cn.lili.modules.goods.entity.dos.Parameters;
+import cn.store.modules.goods.entity.dos.Parameters;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

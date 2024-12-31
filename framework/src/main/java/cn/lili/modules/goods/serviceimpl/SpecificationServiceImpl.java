@@ -1,13 +1,13 @@
-package cn.lili.modules.goods.serviceimpl;
+package cn.store.modules.goods.serviceimpl;
 
 import cn.hutool.json.JSONUtil;
-import cn.lili.common.enums.ResultCode;
-import cn.lili.common.exception.ServiceException;
-import cn.lili.modules.goods.entity.dos.CategorySpecification;
-import cn.lili.modules.goods.entity.dos.Specification;
-import cn.lili.modules.goods.mapper.SpecificationMapper;
-import cn.lili.modules.goods.service.CategorySpecificationService;
-import cn.lili.modules.goods.service.SpecificationService;
+import cn.store.common.enums.ResultCode;
+import cn.store.common.exception.ServiceException;
+import cn.store.modules.goods.entity.dos.CategorySpecification;
+import cn.store.modules.goods.entity.dos.Specification;
+import cn.store.modules.goods.mapper.SpecificationMapper;
+import cn.store.modules.goods.service.CategorySpecificationService;
+import cn.store.modules.goods.service.SpecificationService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

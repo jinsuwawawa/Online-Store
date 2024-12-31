@@ -1,8 +1,8 @@
-package cn.lili.modules.goods.entity.vos;
+package cn.store.modules.goods.entity.vos;
 
 import cn.hutool.core.bean.BeanUtil;
-import cn.lili.modules.goods.entity.dos.Brand;
-import cn.lili.modules.goods.entity.dos.Category;
+import cn.store.modules.goods.entity.dos.Brand;
+import cn.store.modules.goods.entity.dos.Category;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;

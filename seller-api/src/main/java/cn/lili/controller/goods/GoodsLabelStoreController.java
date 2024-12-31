@@ -1,12 +1,12 @@
-package cn.lili.controller.goods;
+package cn.store.controller.goods;
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.security.OperationalJudgment;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.goods.entity.dos.StoreGoodsLabel;
-import cn.lili.modules.goods.entity.vos.StoreGoodsLabelVO;
-import cn.lili.modules.goods.service.StoreGoodsLabelService;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.security.OperationalJudgment;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.goods.entity.dos.StoreGoodsLabel;
+import cn.store.modules.goods.entity.vos.StoreGoodsLabelVO;
+import cn.store.modules.goods.service.StoreGoodsLabelService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

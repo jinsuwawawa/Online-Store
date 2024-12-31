@@ -1,7 +1,7 @@
-package cn.lili.modules.goods.sku.render;
+package cn.store.modules.goods.sku.render;
 
-import cn.lili.modules.goods.entity.dos.GoodsSku;
-import cn.lili.modules.goods.entity.dto.GoodsOperationDTO;
+import cn.store.modules.goods.entity.dos.GoodsSku;
+import cn.store.modules.goods.entity.dto.GoodsOperationDTO;
 
 import java.util.List;
 

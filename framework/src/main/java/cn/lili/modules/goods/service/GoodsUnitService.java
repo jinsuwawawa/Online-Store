@@ -1,7 +1,7 @@
-package cn.lili.modules.goods.service;
+package cn.store.modules.goods.service;
 
 
-import cn.lili.modules.goods.entity.dos.GoodsUnit;
+import cn.store.modules.goods.entity.dos.GoodsUnit;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

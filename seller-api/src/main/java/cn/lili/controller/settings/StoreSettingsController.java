@@ -1,14 +1,14 @@
-package cn.lili.controller.settings;
+package cn.store.controller.settings;
 
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.store.entity.dto.StoreAfterSaleAddressDTO;
-import cn.lili.modules.store.entity.dto.StoreDeliverGoodsAddressDTO;
-import cn.lili.modules.store.entity.dto.StoreSettingDTO;
-import cn.lili.modules.store.entity.vos.StoreVO;
-import cn.lili.modules.store.service.StoreDetailService;
-import cn.lili.modules.store.service.StoreService;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.store.entity.dto.StoreAfterSaleAddressDTO;
+import cn.store.modules.store.entity.dto.StoreDeliverGoodsAddressDTO;
+import cn.store.modules.store.entity.dto.StoreSettingDTO;
+import cn.store.modules.store.entity.vos.StoreVO;
+import cn.store.modules.store.service.StoreDetailService;
+import cn.store.modules.store.service.StoreService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

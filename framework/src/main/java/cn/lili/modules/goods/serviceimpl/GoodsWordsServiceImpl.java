@@ -1,8 +1,8 @@
-package cn.lili.modules.goods.serviceimpl;
+package cn.store.modules.goods.serviceimpl;
 
-import cn.lili.modules.goods.entity.dos.GoodsWords;
-import cn.lili.modules.goods.mapper.GoodsWordsMapper;
-import cn.lili.modules.goods.service.GoodsWordsService;
+import cn.store.modules.goods.entity.dos.GoodsWords;
+import cn.store.modules.goods.mapper.GoodsWordsMapper;
+import cn.store.modules.goods.service.GoodsWordsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -1,16 +1,16 @@
-package cn.lili.modules.goods.serviceimpl;
+package cn.store.modules.goods.serviceimpl;
 
 import cn.hutool.core.text.CharSequenceUtil;
-import cn.lili.cache.Cache;
-import cn.lili.cache.CachePrefix;
-import cn.lili.common.enums.ResultCode;
-import cn.lili.common.exception.ServiceException;
-import cn.lili.common.security.AuthUser;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.modules.goods.entity.dos.StoreGoodsLabel;
-import cn.lili.modules.goods.entity.vos.StoreGoodsLabelVO;
-import cn.lili.modules.goods.mapper.StoreGoodsLabelMapper;
-import cn.lili.modules.goods.service.StoreGoodsLabelService;
+import cn.store.cache.Cache;
+import cn.store.cache.CachePrefix;
+import cn.store.common.enums.ResultCode;
+import cn.store.common.exception.ServiceException;
+import cn.store.common.security.AuthUser;
+import cn.store.common.security.context.UserContext;
+import cn.store.modules.goods.entity.dos.StoreGoodsLabel;
+import cn.store.modules.goods.entity.vos.StoreGoodsLabelVO;
+import cn.store.modules.goods.mapper.StoreGoodsLabelMapper;
+import cn.store.modules.goods.service.StoreGoodsLabelService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;

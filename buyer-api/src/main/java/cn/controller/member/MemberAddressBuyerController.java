@@ -1,12 +1,12 @@
-package cn.lili.controller.member;
+package cn.store.controller.member;
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.security.OperationalJudgment;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.vo.PageVO;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.member.entity.dos.MemberAddress;
-import cn.lili.modules.member.service.MemberAddressService;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.security.OperationalJudgment;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.vo.PageVO;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.member.entity.dos.MemberAddress;
+import cn.store.modules.member.service.MemberAddressService;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;

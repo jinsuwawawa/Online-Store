@@ -1,10 +1,10 @@
-package cn.lili.modules.goods.mapper;
+package cn.store.modules.goods.mapper;
 
-import cn.lili.modules.goods.entity.dos.GoodsSku;
-import cn.lili.modules.goods.entity.dto.GoodsSkuDTO;
-import cn.lili.modules.goods.entity.dto.GoodsSkuStockDTO;
-import cn.lili.modules.order.order.entity.dto.OrderExportDTO;
-import cn.lili.modules.order.order.entity.vo.OrderSimpleVO;
+import cn.store.modules.goods.entity.dos.GoodsSku;
+import cn.store.modules.goods.entity.dto.GoodsSkuDTO;
+import cn.store.modules.goods.entity.dto.GoodsSkuStockDTO;
+import cn.store.modules.order.order.entity.dto.OrderExportDTO;
+import cn.store.modules.order.order.entity.vo.OrderSimpleVO;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;

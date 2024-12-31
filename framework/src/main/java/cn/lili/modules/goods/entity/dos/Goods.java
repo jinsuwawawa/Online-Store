@@ -1,19 +1,19 @@
-package cn.lili.modules.goods.entity.dos;
+package cn.store.modules.goods.entity.dos;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.convert.Convert;
 import cn.hutool.core.text.CharSequenceUtil;
 import cn.hutool.http.HtmlUtil;
 import cn.hutool.json.JSONUtil;
-import cn.lili.common.enums.ResultCode;
-import cn.lili.common.exception.ServiceException;
-import cn.lili.modules.goods.entity.dto.DraftGoodsDTO;
-import cn.lili.modules.goods.entity.dto.GoodsOperationDTO;
-import cn.lili.modules.goods.entity.enums.GoodsAuthEnum;
-import cn.lili.modules.goods.entity.enums.GoodsSalesModeEnum;
-import cn.lili.modules.goods.entity.enums.GoodsStatusEnum;
-import cn.lili.modules.goods.entity.enums.GoodsTypeEnum;
-import cn.lili.mybatis.BaseEntity;
+import cn.store.common.enums.ResultCode;
+import cn.store.common.exception.ServiceException;
+import cn.store.modules.goods.entity.dto.DraftGoodsDTO;
+import cn.store.modules.goods.entity.dto.GoodsOperationDTO;
+import cn.store.modules.goods.entity.enums.GoodsAuthEnum;
+import cn.store.modules.goods.entity.enums.GoodsSalesModeEnum;
+import cn.store.modules.goods.entity.enums.GoodsStatusEnum;
+import cn.store.modules.goods.entity.enums.GoodsTypeEnum;
+import cn.store.mybatis.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.xkcoding.http.util.StringUtil;
 import io.swagger.annotations.ApiModel;
@@ -133,14 +133,14 @@ public class Goods extends BaseEntity {
     private Boolean recommend;
 
     /**
-     * @see cn.lili.modules.goods.entity.enums.GoodsSalesModeEnum
+     * @see cn.store.modules.goods.entity.enums.GoodsSalesModeEnum
      */
     @ApiModelProperty(value = "销售模式", required = true)
     private String salesModel;
 
 
     /**
-     * @see cn.lili.modules.goods.entity.enums.GoodsTypeEnum
+     * @see cn.store.modules.goods.entity.enums.GoodsTypeEnum
      */
     @ApiModelProperty(value = "商品类型", required = true)
     private String goodsType;

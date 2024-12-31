@@ -1,4 +1,4 @@
-package cn.lili.modules.statistics.aop.enums;
+package cn.store.modules.statistics.aop.enums;
 
 /**
  * 统计页面类型

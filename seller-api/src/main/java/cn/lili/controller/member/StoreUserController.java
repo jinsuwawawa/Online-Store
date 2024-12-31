@@ -1,15 +1,15 @@
-package cn.lili.controller.member;
+package cn.store.controller.member;
 
-import cn.lili.common.enums.ResultCode;
-import cn.lili.common.exception.ServiceException;
-import cn.lili.common.security.AuthUser;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.member.entity.dos.Member;
-import cn.lili.modules.member.service.MemberService;
-import cn.lili.modules.store.entity.dos.Store;
-import cn.lili.modules.store.service.StoreService;
+import cn.store.common.enums.ResultCode;
+import cn.store.common.exception.ServiceException;
+import cn.store.common.security.AuthUser;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.member.entity.dos.Member;
+import cn.store.modules.member.service.MemberService;
+import cn.store.modules.store.entity.dos.Store;
+import cn.store.modules.store.service.StoreService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

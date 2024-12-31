@@ -1,11 +1,11 @@
-package cn.lili.controller.member;
+package cn.store.controller.member;
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.member.entity.dto.FootPrintQueryParams;
-import cn.lili.modules.member.service.FootprintService;
-import cn.lili.modules.search.entity.dos.EsGoodsIndex;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.member.entity.dto.FootPrintQueryParams;
+import cn.store.modules.member.service.FootprintService;
+import cn.store.modules.search.entity.dos.EsGoodsIndex;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

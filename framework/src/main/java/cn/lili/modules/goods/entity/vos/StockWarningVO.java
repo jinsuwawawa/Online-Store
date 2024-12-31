@@ -1,6 +1,6 @@
-package cn.lili.modules.goods.entity.vos;
+package cn.store.modules.goods.entity.vos;
 
-import cn.lili.modules.goods.entity.dos.GoodsSku;
+import cn.store.modules.goods.entity.dos.GoodsSku;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;

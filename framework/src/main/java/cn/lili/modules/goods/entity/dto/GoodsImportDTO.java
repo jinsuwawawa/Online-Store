@@ -1,6 +1,6 @@
-package cn.lili.modules.goods.entity.dto;
+package cn.store.modules.goods.entity.dto;
 
-import cn.lili.modules.goods.entity.dos.Category;
+import cn.store.modules.goods.entity.dos.Category;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;

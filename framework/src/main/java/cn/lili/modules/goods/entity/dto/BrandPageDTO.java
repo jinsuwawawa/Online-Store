@@ -1,6 +1,6 @@
-package cn.lili.modules.goods.entity.dto;
+package cn.store.modules.goods.entity.dto;
 
-import cn.lili.common.vo.PageVO;
+import cn.store.common.vo.PageVO;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import io.swagger.annotations.ApiModel;

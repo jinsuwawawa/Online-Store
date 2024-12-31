@@ -1,7 +1,7 @@
-package cn.lili.modules.goods.mapper;
+package cn.store.modules.goods.mapper;
 
-import cn.lili.modules.goods.entity.dos.CategorySpecification;
-import cn.lili.modules.goods.entity.dos.Specification;
+import cn.store.modules.goods.entity.dos.CategorySpecification;
+import cn.store.modules.goods.entity.dos.Specification;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Select;
 

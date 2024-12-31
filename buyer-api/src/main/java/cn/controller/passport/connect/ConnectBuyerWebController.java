@@ -1,18 +1,18 @@
-package cn.lili.controller.passport.connect;
+package cn.store.controller.passport.connect;
 
 
-import cn.lili.common.enums.ResultCode;
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.exception.ServiceException;
-import cn.lili.common.security.token.Token;
-import cn.lili.common.utils.UuidUtils;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.connect.entity.dto.AuthCallback;
-import cn.lili.modules.connect.entity.dto.ConnectAuthUser;
-import cn.lili.modules.connect.request.AuthRequest;
-import cn.lili.modules.connect.service.ConnectService;
-import cn.lili.modules.connect.util.ConnectUtil;
-import cn.lili.modules.member.service.MemberService;
+import cn.store.common.enums.ResultCode;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.exception.ServiceException;
+import cn.store.common.security.token.Token;
+import cn.store.common.utils.UuidUtils;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.connect.entity.dto.AuthCallback;
+import cn.store.modules.connect.entity.dto.ConnectAuthUser;
+import cn.store.modules.connect.request.AuthRequest;
+import cn.store.modules.connect.service.ConnectService;
+import cn.store.modules.connect.util.ConnectUtil;
+import cn.store.modules.member.service.MemberService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

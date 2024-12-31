@@ -1,6 +1,6 @@
-package cn.lili.modules.statistics.service;
+package cn.store.modules.statistics.service;
 
-import cn.lili.modules.member.entity.dos.MemberEvaluation;
+import cn.store.modules.member.entity.dos.MemberEvaluation;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

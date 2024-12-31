@@ -1,6 +1,6 @@
-package cn.lili.modules.goods.entity.dos;
+package cn.store.modules.goods.entity.dos;
 
-import cn.lili.mybatis.BaseIdEntity;
+import cn.store.mybatis.BaseIdEntity;
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;

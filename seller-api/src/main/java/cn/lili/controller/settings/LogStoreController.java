@@ -1,11 +1,11 @@
-package cn.lili.controller.settings;
+package cn.store.controller.settings;
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.vo.PageVO;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.common.vo.SearchVO;
-import cn.lili.modules.permission.service.SystemLogService;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.vo.PageVO;
+import cn.store.common.vo.ResultMessage;
+import cn.store.common.vo.SearchVO;
+import cn.store.modules.permission.service.SystemLogService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package cn.lili.modules.goods.entity.dto;
+package cn.store.modules.goods.entity.dto;
 
-import cn.lili.modules.goods.entity.dos.Wholesale;
+import cn.store.modules.goods.entity.dos.Wholesale;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;

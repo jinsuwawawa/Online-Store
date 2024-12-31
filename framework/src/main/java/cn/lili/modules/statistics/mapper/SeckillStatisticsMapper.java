@@ -1,6 +1,6 @@
-package cn.lili.modules.statistics.mapper;
+package cn.store.modules.statistics.mapper;
 
-import cn.lili.modules.promotion.entity.dos.Seckill;
+import cn.store.modules.promotion.entity.dos.Seckill;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

@@ -1,12 +1,12 @@
-package cn.lili.modules.goods.service;
+package cn.store.modules.goods.service;
 
-import cn.lili.modules.goods.entity.dos.Goods;
-import cn.lili.modules.goods.entity.dto.GoodsOperationDTO;
-import cn.lili.modules.goods.entity.dto.GoodsSearchParams;
-import cn.lili.modules.goods.entity.enums.GoodsAuthEnum;
-import cn.lili.modules.goods.entity.enums.GoodsStatusEnum;
-import cn.lili.modules.goods.entity.vos.GoodsVO;
-import cn.lili.modules.store.entity.dos.Store;
+import cn.store.modules.goods.entity.dos.Goods;
+import cn.store.modules.goods.entity.dto.GoodsOperationDTO;
+import cn.store.modules.goods.entity.dto.GoodsSearchParams;
+import cn.store.modules.goods.entity.enums.GoodsAuthEnum;
+import cn.store.modules.goods.entity.enums.GoodsStatusEnum;
+import cn.store.modules.goods.entity.vos.GoodsVO;
+import cn.store.modules.store.entity.dos.Store;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 

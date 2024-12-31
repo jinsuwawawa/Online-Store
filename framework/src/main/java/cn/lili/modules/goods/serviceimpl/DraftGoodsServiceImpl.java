@@ -1,16 +1,16 @@
-package cn.lili.modules.goods.serviceimpl;
+package cn.store.modules.goods.serviceimpl;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONUtil;
-import cn.lili.modules.goods.entity.dos.*;
-import cn.lili.modules.goods.entity.dto.*;
-import cn.lili.modules.goods.entity.vos.DraftGoodsVO;
-import cn.lili.modules.goods.mapper.DraftGoodsMapper;
-import cn.lili.modules.goods.service.*;
-import cn.lili.modules.goods.sku.GoodsSkuBuilder;
-import cn.lili.mybatis.util.PageUtil;
+import cn.store.modules.goods.entity.dos.*;
+import cn.store.modules.goods.entity.dto.*;
+import cn.store.modules.goods.entity.vos.DraftGoodsVO;
+import cn.store.modules.goods.mapper.DraftGoodsMapper;
+import cn.store.modules.goods.service.*;
+import cn.store.modules.goods.sku.GoodsSkuBuilder;
+import cn.store.mybatis.util.PageUtil;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

@@ -1,12 +1,12 @@
-package cn.lili.controller.im;
+package cn.store.controller.im;
 
-import cn.lili.common.enums.ResultCode;
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.exception.ServiceException;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.im.entity.dos.ImMessage;
-import cn.lili.modules.im.entity.dto.MessageQueryParams;
-import cn.lili.modules.im.service.ImMessageService;
+import cn.store.common.enums.ResultCode;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.exception.ServiceException;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.im.entity.dos.ImMessage;
+import cn.store.modules.im.entity.dto.MessageQueryParams;
+import cn.store.modules.im.service.ImMessageService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;

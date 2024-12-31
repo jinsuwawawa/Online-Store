@@ -1,6 +1,6 @@
-package cn.lili.modules.statistics.service;
+package cn.store.modules.statistics.service;
 
-import cn.lili.modules.distribution.entity.dos.DistributionCash;
+import cn.store.modules.distribution.entity.dos.DistributionCash;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

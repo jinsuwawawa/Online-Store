@@ -1,12 +1,12 @@
-package cn.lili.modules.goods.serviceimpl;
+package cn.store.modules.goods.serviceimpl;
 
 import cn.hutool.core.collection.CollUtil;
-import cn.lili.cache.Cache;
-import cn.lili.common.enums.ResultCode;
-import cn.lili.common.exception.ServiceException;
-import cn.lili.modules.goods.entity.dos.Wholesale;
-import cn.lili.modules.goods.mapper.WholesaleMapper;
-import cn.lili.modules.goods.service.WholesaleService;
+import cn.store.cache.Cache;
+import cn.store.common.enums.ResultCode;
+import cn.store.common.exception.ServiceException;
+import cn.store.modules.goods.entity.dos.Wholesale;
+import cn.store.modules.goods.mapper.WholesaleMapper;
+import cn.store.modules.goods.service.WholesaleService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

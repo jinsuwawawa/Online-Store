@@ -1,9 +1,9 @@
-package cn.lili.controller.common;
+package cn.store.controller.common;
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.system.entity.enums.SettingEnum;
-import cn.lili.modules.system.service.SettingService;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.system.entity.enums.SettingEnum;
+import cn.store.modules.system.service.SettingService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

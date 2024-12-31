@@ -1,4 +1,4 @@
-package cn.lili.modules.statistics.util;
+package cn.store.modules.statistics.util;
 
 import java.util.Calendar;
 

@@ -1,10 +1,10 @@
-package cn.lili.modules.goods.entity.dos;
+package cn.store.modules.goods.entity.dos;
 
 import cn.hutool.core.text.CharSequenceUtil;
 import cn.hutool.http.HtmlUtil;
-import cn.lili.modules.goods.entity.enums.DraftGoodsSaveType;
-import cn.lili.modules.goods.entity.enums.GoodsStatusEnum;
-import cn.lili.mybatis.BaseEntity;
+import cn.store.modules.goods.entity.enums.DraftGoodsSaveType;
+import cn.store.modules.goods.entity.enums.GoodsStatusEnum;
+import cn.store.mybatis.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -111,7 +111,7 @@ public class DraftGoods extends BaseEntity {
     private Boolean recommend;
 
     /**
-     * @see cn.lili.modules.goods.entity.enums.GoodsSalesModeEnum
+     * @see cn.store.modules.goods.entity.enums.GoodsSalesModeEnum
      */
     @ApiModelProperty(value = "销售模式")
     private String salesModel;
@@ -135,7 +135,7 @@ public class DraftGoods extends BaseEntity {
     private String skuListJson;
 
     /**
-     * @see cn.lili.modules.goods.entity.enums.GoodsTypeEnum
+     * @see cn.store.modules.goods.entity.enums.GoodsTypeEnum
      */
     @ApiModelProperty(value = "商品类型", required = true)
     private String goodsType;

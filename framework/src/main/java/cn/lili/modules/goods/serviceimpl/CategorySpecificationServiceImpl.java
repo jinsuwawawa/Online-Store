@@ -1,9 +1,9 @@
-package cn.lili.modules.goods.serviceimpl;
+package cn.store.modules.goods.serviceimpl;
 
-import cn.lili.modules.goods.entity.dos.CategorySpecification;
-import cn.lili.modules.goods.entity.dos.Specification;
-import cn.lili.modules.goods.mapper.CategorySpecificationMapper;
-import cn.lili.modules.goods.service.CategorySpecificationService;
+import cn.store.modules.goods.entity.dos.CategorySpecification;
+import cn.store.modules.goods.entity.dos.Specification;
+import cn.store.modules.goods.mapper.CategorySpecificationMapper;
+import cn.store.modules.goods.service.CategorySpecificationService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

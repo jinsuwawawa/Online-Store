@@ -1,15 +1,15 @@
-package cn.lili.modules.goods.serviceimpl;
+package cn.store.modules.goods.serviceimpl;
 
 import cn.hutool.json.JSONUtil;
-import cn.lili.modules.file.entity.enums.OssEnum;
-import cn.lili.modules.goods.entity.dos.GoodsGallery;
-import cn.lili.modules.goods.mapper.GoodsGalleryMapper;
-import cn.lili.modules.goods.service.GoodsGalleryService;
-import cn.lili.modules.system.entity.dos.Setting;
-import cn.lili.modules.system.entity.dto.GoodsSetting;
-import cn.lili.modules.system.entity.dto.OssSetting;
-import cn.lili.modules.system.entity.enums.SettingEnum;
-import cn.lili.modules.system.service.SettingService;
+import cn.store.modules.file.entity.enums.OssEnum;
+import cn.store.modules.goods.entity.dos.GoodsGallery;
+import cn.store.modules.goods.mapper.GoodsGalleryMapper;
+import cn.store.modules.goods.service.GoodsGalleryService;
+import cn.store.modules.system.entity.dos.Setting;
+import cn.store.modules.system.entity.dto.GoodsSetting;
+import cn.store.modules.system.entity.dto.OssSetting;
+import cn.store.modules.system.entity.enums.SettingEnum;
+import cn.store.modules.system.service.SettingService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,19 +1,19 @@
-package cn.lili.controller.passport;
+package cn.store.controller.passport;
 
 
-import cn.lili.common.aop.annotation.DemoSite;
-import cn.lili.common.enums.ResultCode;
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.exception.ServiceException;
-import cn.lili.common.security.AuthUser;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.security.enums.UserEnums;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.member.entity.dos.Member;
-import cn.lili.modules.member.service.MemberService;
-import cn.lili.modules.sms.SmsUtil;
-import cn.lili.modules.verification.entity.enums.VerificationEnums;
-import cn.lili.modules.verification.service.VerificationService;
+import cn.store.common.aop.annotation.DemoSite;
+import cn.store.common.enums.ResultCode;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.exception.ServiceException;
+import cn.store.common.security.AuthUser;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.security.enums.UserEnums;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.member.entity.dos.Member;
+import cn.store.modules.member.service.MemberService;
+import cn.store.modules.sms.SmsUtil;
+import cn.store.modules.verification.entity.enums.VerificationEnums;
+import cn.store.modules.verification.service.VerificationService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

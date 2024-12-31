@@ -1,17 +1,17 @@
-package cn.lili.modules.goods.sku.render.impl;
+package cn.store.modules.goods.sku.render.impl;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.lang.Assert;
 import cn.hutool.core.text.CharSequenceUtil;
-import cn.lili.common.enums.ResultCode;
-import cn.lili.common.exception.ServiceException;
-import cn.lili.modules.goods.entity.dos.GoodsSku;
-import cn.lili.modules.goods.entity.dos.Wholesale;
-import cn.lili.modules.goods.entity.dto.GoodsOperationDTO;
-import cn.lili.modules.goods.entity.dto.WholesaleDTO;
-import cn.lili.modules.goods.entity.enums.GoodsSalesModeEnum;
-import cn.lili.modules.goods.service.WholesaleService;
-import cn.lili.modules.goods.sku.render.SalesModelRender;
+import cn.store.common.enums.ResultCode;
+import cn.store.common.exception.ServiceException;
+import cn.store.modules.goods.entity.dos.GoodsSku;
+import cn.store.modules.goods.entity.dos.Wholesale;
+import cn.store.modules.goods.entity.dto.GoodsOperationDTO;
+import cn.store.modules.goods.entity.dto.WholesaleDTO;
+import cn.store.modules.goods.entity.enums.GoodsSalesModeEnum;
+import cn.store.modules.goods.service.WholesaleService;
+import cn.store.modules.goods.sku.render.SalesModelRender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;

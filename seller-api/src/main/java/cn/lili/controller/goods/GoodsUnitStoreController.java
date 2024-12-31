@@ -1,12 +1,12 @@
-package cn.lili.controller.goods;
+package cn.store.controller.goods;
 
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.vo.PageVO;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.goods.entity.dos.GoodsUnit;
-import cn.lili.modules.goods.service.GoodsUnitService;
-import cn.lili.mybatis.util.PageUtil;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.vo.PageVO;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.goods.entity.dos.GoodsUnit;
+import cn.store.modules.goods.service.GoodsUnitService;
+import cn.store.mybatis.util.PageUtil;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

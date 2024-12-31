@@ -5,15 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>buyer-api</artifactId>
     <parent>
-        <groupId>cn.lili</groupId>
-        <artifactId>lili-shop-parent</artifactId>
+        <groupId>cn.store</groupId>
+        <artifactId>store-shop-parent</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>cn.lili</groupId>
+            <groupId>cn.store</groupId>
             <artifactId>framework</artifactId>
             <version>${revision}</version>
         </dependency>

@@ -1,15 +1,15 @@
-package cn.lili.controller.distribution;
+package cn.store.controller.distribution;
 
-import cn.lili.common.enums.ResultUtil;
-import cn.lili.common.security.OperationalJudgment;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.vo.ResultMessage;
-import cn.lili.modules.distribution.entity.dos.DistributionGoods;
-import cn.lili.modules.distribution.entity.dos.DistributionSelectedGoods;
-import cn.lili.modules.distribution.entity.dto.DistributionGoodsSearchParams;
-import cn.lili.modules.distribution.entity.vos.DistributionGoodsVO;
-import cn.lili.modules.distribution.service.DistributionGoodsService;
-import cn.lili.modules.distribution.service.DistributionSelectedGoodsService;
+import cn.store.common.enums.ResultUtil;
+import cn.store.common.security.OperationalJudgment;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.vo.ResultMessage;
+import cn.store.modules.distribution.entity.dos.DistributionGoods;
+import cn.store.modules.distribution.entity.dos.DistributionSelectedGoods;
+import cn.store.modules.distribution.entity.dto.DistributionGoodsSearchParams;
+import cn.store.modules.distribution.entity.vos.DistributionGoodsVO;
+import cn.store.modules.distribution.service.DistributionGoodsService;
+import cn.store.modules.distribution.service.DistributionSelectedGoodsService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.annotations.Api;

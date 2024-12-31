@@ -1,10 +1,10 @@
-package cn.lili.modules.goods.entity.dto;
+package cn.store.modules.goods.entity.dto;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.text.CharSequenceUtil;
-import cn.lili.common.vo.PageVO;
-import cn.lili.modules.goods.entity.enums.GoodsAuthEnum;
-import cn.lili.modules.goods.entity.enums.GoodsStatusEnum;
+import cn.store.common.vo.PageVO;
+import cn.store.modules.goods.entity.enums.GoodsAuthEnum;
+import cn.store.modules.goods.entity.enums.GoodsStatusEnum;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.*;
@@ -77,13 +77,13 @@ public class GoodsSearchParams extends PageVO {
     private Boolean recommend;
 
     /**
-     * @see cn.lili.modules.goods.entity.enums.GoodsTypeEnum
+     * @see cn.store.modules.goods.entity.enums.GoodsTypeEnum
      */
     @ApiModelProperty(value = "商品类型")
     private String goodsType;
 
     /**
-     * @see cn.lili.modules.goods.entity.enums.GoodsSalesModeEnum
+     * @see cn.store.modules.goods.entity.enums.GoodsSalesModeEnum
      */
     @ApiModelProperty(value = "销售模式", required = true)
     private String salesModel;

@@ -1,22 +1,22 @@
-package cn.lili.modules.statistics.serviceimpl;
+package cn.store.modules.statistics.serviceimpl;
 
-import cn.lili.common.security.AuthUser;
-import cn.lili.common.security.context.UserContext;
-import cn.lili.common.security.enums.UserEnums;
-import cn.lili.common.utils.StringUtils;
-import cn.lili.modules.order.order.entity.dos.StoreFlow;
-import cn.lili.modules.order.order.entity.enums.FlowTypeEnum;
-import cn.lili.modules.statistics.entity.dto.GoodsStatisticsQueryParam;
-import cn.lili.modules.statistics.entity.dto.StatisticsQueryParam;
-import cn.lili.modules.statistics.entity.enums.StatisticsQuery;
-import cn.lili.modules.statistics.entity.vo.CategoryStatisticsDataVO;
-import cn.lili.modules.statistics.entity.vo.GoodsStatisticsDataVO;
-import cn.lili.modules.statistics.entity.vo.OrderOverviewVO;
-import cn.lili.modules.statistics.entity.vo.StoreStatisticsDataVO;
-import cn.lili.modules.statistics.mapper.StoreFlowStatisticsMapper;
-import cn.lili.modules.statistics.service.OrderStatisticsService;
-import cn.lili.modules.statistics.service.StoreFlowStatisticsService;
-import cn.lili.modules.statistics.util.StatisticsDateUtil;
+import cn.store.common.security.AuthUser;
+import cn.store.common.security.context.UserContext;
+import cn.store.common.security.enums.UserEnums;
+import cn.store.common.utils.StringUtils;
+import cn.store.modules.order.order.entity.dos.StoreFlow;
+import cn.store.modules.order.order.entity.enums.FlowTypeEnum;
+import cn.store.modules.statistics.entity.dto.GoodsStatisticsQueryParam;
+import cn.store.modules.statistics.entity.dto.StatisticsQueryParam;
+import cn.store.modules.statistics.entity.enums.StatisticsQuery;
+import cn.store.modules.statistics.entity.vo.CategoryStatisticsDataVO;
+import cn.store.modules.statistics.entity.vo.GoodsStatisticsDataVO;
+import cn.store.modules.statistics.entity.vo.OrderOverviewVO;
+import cn.store.modules.statistics.entity.vo.StoreStatisticsDataVO;
+import cn.store.modules.statistics.mapper.StoreFlowStatisticsMapper;
+import cn.store.modules.statistics.service.OrderStatisticsService;
+import cn.store.modules.statistics.service.StoreFlowStatisticsService;
+import cn.store.modules.statistics.util.StatisticsDateUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -78,7 +78,7 @@ public class StoreFlowStatisticsServiceImpl extends ServiceImpl<StoreFlowStatist
             queryWrapper.eq("store_id", authUser.getStoreId());
         }
         //大于今天凌晨
-        queryWrapper.ge("create_time", cn.lili.common.utils.DateUtil.startOfTodDayTime());
+        queryWrapper.ge("create_time", cn.store.common.utils.DateUtil.startOfTodDayTime());
 
         queryWrapper.select("SUM(final_price) AS price , COUNT(0) AS num");
         return this.getMap(queryWrapper);

@@ -1,7 +1,7 @@
-package cn.lili.modules.statistics.mapper;
+package cn.store.modules.statistics.mapper;
 
-import cn.lili.modules.member.entity.vo.MemberDistributionVO;
-import cn.lili.modules.statistics.entity.dos.MemberStatisticsData;
+import cn.store.modules.member.entity.vo.MemberDistributionVO;
+import cn.store.modules.statistics.entity.dos.MemberStatisticsData;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.toolkit.Constants;

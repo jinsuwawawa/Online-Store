@@ -1,9 +1,9 @@
-package cn.lili.modules.statistics.service;
+package cn.store.modules.statistics.service;
 
-import cn.lili.common.vo.PageVO;
-import cn.lili.modules.order.order.entity.dos.StoreFlow;
-import cn.lili.modules.statistics.entity.dto.StatisticsQueryParam;
-import cn.lili.modules.statistics.entity.vo.RefundOrderStatisticsDataVO;
+import cn.store.common.vo.PageVO;
+import cn.store.modules.order.order.entity.dos.StoreFlow;
+import cn.store.modules.statistics.entity.dto.StatisticsQueryParam;
+import cn.store.modules.statistics.entity.vo.RefundOrderStatisticsDataVO;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 

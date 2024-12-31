@@ -1,8 +1,8 @@
-package cn.lili.modules.goods.entity.dto;
+package cn.store.modules.goods.entity.dto;
 
-import cn.lili.common.validation.EnumValue;
-import cn.lili.modules.goods.entity.enums.GoodsSalesModeEnum;
-import cn.lili.modules.goods.entity.enums.GoodsTypeEnum;
+import cn.store.common.validation.EnumValue;
+import cn.store.modules.goods.entity.enums.GoodsSalesModeEnum;
+import cn.store.modules.goods.entity.enums.GoodsTypeEnum;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.*;
 import org.hibernate.validator.constraints.Length;
@@ -84,7 +84,7 @@ public class GoodsOperationDTO implements Serializable {
     private String sellingPoint;
 
     /**
-     * @see cn.lili.modules.goods.entity.enums.GoodsSalesModeEnum
+     * @see cn.store.modules.goods.entity.enums.GoodsSalesModeEnum
      */
     @ApiModelProperty(value = "销售模式", required = true)
     private String salesModel;
@@ -103,7 +103,7 @@ public class GoodsOperationDTO implements Serializable {
     private Boolean regeneratorSkuFlag = true;
 
     /**
-     * @see cn.lili.modules.goods.entity.enums.GoodsTypeEnum
+     * @see cn.store.modules.goods.entity.enums.GoodsTypeEnum
      */
     @ApiModelProperty(value = "商品类型")
     @EnumValue(strValues = {"PHYSICAL_GOODS", "VIRTUAL_GOODS", "E_COUPON"}, message = "商品类型参数值错误")

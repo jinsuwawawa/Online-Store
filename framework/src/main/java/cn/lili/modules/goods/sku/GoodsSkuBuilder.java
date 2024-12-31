@@ -1,11 +1,11 @@
-package cn.lili.modules.goods.sku;
+package cn.store.modules.goods.sku;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.convert.Convert;
 import cn.hutool.core.lang.Assert;
 import cn.hutool.json.JSONUtil;
-import cn.lili.modules.goods.entity.dos.Goods;
-import cn.lili.modules.goods.entity.dos.GoodsSku;
+import cn.store.modules.goods.entity.dos.Goods;
+import cn.store.modules.goods.entity.dos.GoodsSku;
 import org.springframework.stereotype.Component;
 
 import java.util.*;

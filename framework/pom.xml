@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cn.lili</groupId>
-        <artifactId>lili-shop-parent</artifactId>
+        <groupId>cn.store</groupId>
+        <artifactId>store-shop-parent</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
