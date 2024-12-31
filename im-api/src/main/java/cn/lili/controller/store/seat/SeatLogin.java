@@ -15,10 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 坐席登录接口
- *
- * @author Chopper
- * @version v1.0
- * 2022-02-10 16:40
  */
 @Slf4j
 @RestController

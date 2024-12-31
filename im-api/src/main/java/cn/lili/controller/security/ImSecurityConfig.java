@@ -12,9 +12,6 @@ import org.springframework.web.cors.CorsConfigurationSource;
 /**
  * spring Security 核心配置类 通用安全
  *
- * @author Chopper
- * @version v4.0
- * @since 2020/11/14 16:20
  */
 @Slf4j
 @Configuration

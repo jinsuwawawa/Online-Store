@@ -17,10 +17,6 @@ import java.util.List;
 
 /**
  * SeatController
- *
- * @author Chopper
- * @version v1.0
- * 2022-02-10 11:50
  */
 @RestController
 @Api(tags = "店铺端,坐席管理")
